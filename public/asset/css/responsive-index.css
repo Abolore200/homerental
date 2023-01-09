@@ -1,0 +1,64 @@
+@media screen and (max-width:768px){
+    header nav{width:100%;height:100px;}
+    header{height:100vh;}
+    header.showHeader{height:100vh;position:absolute;top:0;}
+    .homeLink span{display:block;padding:7px;}
+    nav .navbarHome{display:block;border-bottom:0px;padding-top:0px;}
+    .homeLink{width:100%;margin-right:0px;display:flex;justify-content:space-between;align-items:center;padding:25px 18px}
+    .homeLink span .fa-bars{font-size:25px;}
+    .homeLink{background-color:rgba(95, 93, 93, 50%);position:relative;z-index:999;}
+    .navbarHome .navbarListHome{width:100%;margin-top:-99px;padding-top:90px;}
+    .navbarListHome ul{display:block;background-color:rgba(95, 93, 93);width:50%;height:100vh;padding-top:90px;
+    padding-left:20px;float:right;position:fixed;right:0;top:0;margin-top:0px;}
+    .navbarListHome ul{right:999px;}
+    .navbarListHome{height:100vh;}
+    .navbarListHome ul li::after{margin-top:3px;}
+    .navbarListHome ul li{padding:10px 0;width:fit-content;}
+    .navbarListHome ul.show{right:0px;transition:right .3s;}
+    .homeLink.fixed{position:fixed;top:0;}
+    header .backgroundHome{display:block;}
+    .backgroundHome .backgroundText{width:100%;}
+    .backgroundText p{font-size:25px;line-height:40px;text-align:center;}
+    .backgroundHome .backgroundMapImage{width:100%;margin-top:40px;}
+    header .backgroundHome{width:95%;}
+    .mapImage img{width:100%;}
+    .imageMap{width:95%;}
+    .mapDetail{width:100%;}
+    .mapForm{width:90%;display:block;box-shadow:2px -2px 11px 0px rgba(129, 128, 128, 0.4);}
+    .mapForm select, .mapForm button{width:100%;margin:8px 0;}
+    .mapForm select:nth-child(2){width:100%;}
+    header .backgroundHome.showMargin{margin-top:131px;}
+    /* .navbarHome .navbarListHome.showBackground{background-color:rgba(0,0,0,.3);position:relative;} */
+    .mapForm select, .mapForm button{border-radius:5px;}
+    main{margin-top:170px;}
+    .mainHeaderNote p span{padding-bottom:0px;}
+    .mainHeaderNote p{line-height:45px;font-size:25px;}
+    .mainImage{display:block;}
+    .mainImageHome, .mainIcon{width:100%;}
+    .allMain.marginTop{position:relative;top:675px;z-index:-999;}
+    .allMain{width:100%;padding:0px 25px;}
+    .mainImageHome{margin-left:0px;text-align:center;}
+    .mainImageHome img{width:100%;height:400px;}
+    .iconListOne ul li{text-align:center;}
+    .iconListOne ul li .dollarNote p{font-size:14px;}
+    .iconListOne ul li .dollarIcon{width:55px;height:52px;}
+    .dollarIcon p .fa-dollar-sign, .dollarIcon p .fa-building, .dollarIcon p .fa-database, .dollarIcon p .fa-leaf, .dollarIcon p .fa-moon, .dollarIcon p .fa-shield{
+    font-size:18px;}
+    .iconListOne ul li .dollarNote p br{display:none;}
+    /* .mainImageHome, .iconListOne ul:nth-child(1){float:left;} */
+}
+
+
+
+
+
+@media screen and (min-width:400px) and (max-width:768px) {
+    .mapImage img{width:100%;height:280px;}
+    .backgroundText p br:nth-child(1){display:none}
+}
+@media screen and (min-width:767px) and (max-width:1000px) {
+    .mapImage img{width:100%;}
+    .mapForm{display:block;}
+    .mapForm select, .mapForm button{width:100%;margin:8px 0;}
+    .mapForm select:nth-child(2){width:100%;}
+}
