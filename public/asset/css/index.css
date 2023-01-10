@@ -214,7 +214,8 @@ color:#fff;font-family:'Inter';}
 .loremNote .dots ul li:first-child{margin-left:0;background-color:#F4511E;}
 .loremNote .dots ul li:last-child{margin-right:0;}
 .loremNote .dots{margin-top:40px;}
-.homeFooter{width:80%;margin:auto;border-top:2px solid #F4511E;padding-top:40px;display:flex;align-items:center;}
+.homeFooter{width:80%;margin:auto;border-top:2px solid #F4511E;padding-top:40px;display:flex;align-items:center;
+padding-bottom:65px;}
 .homeFooter .footerHomeImage,.homeFooter .homeSocialMedia{width:50%;}
 .homeFooter .homeSocialMedia{padding-left:40px;}
 .homeFooter .footerHomeImage{background-color:#E6E6E6;text-align:center;}
@@ -233,4 +234,4 @@ color:#fff;font-family:'Inter';}
 .homeAddress p{font-family:'Assistant';}
 .homePhoneNumber ul li{font-family:'Assistant';}
 .homePhoneNumber{margin-bottom:35px;}
-.linkSocialMedia p{font-family:'Assistant';color:#0A142F;opacity:.5;}
+.linkSocialMedia p{font-family:'Assistant';color:#0A142F;opacity:.5;font-size:12px;margin-right:20px;}
