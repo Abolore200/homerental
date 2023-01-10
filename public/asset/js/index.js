@@ -12,3 +12,9 @@ menuBar.addEventListener('click', function(e){
     const mainImage = document.querySelector('.allMain')
     mainImage.classList.toggle('marginTop')
 })
+
+const copyRight = document.querySelector('.homeCopy p span')
+
+const year = new Date().getFullYear()
+
+copyRight.innerHTML = year
