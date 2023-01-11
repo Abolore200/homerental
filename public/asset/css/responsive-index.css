@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
     header nav{width:100%;height:100px;}
     header{height:100vh;}
-    header.showHeader{height:100vh;position:absolute;top:0;}
+    header.showHeader{height:100vh;position:absolute;top:0;right:0;left:0;}
     .homeLink span{display:block;padding:7px;}
     nav .navbarHome{display:block;border-bottom:0px;padding-top:0px;}
     .homeLink{width:100%;margin-right:0px;display:flex;justify-content:space-between;align-items:center;padding:25px 18px}
@@ -96,8 +96,8 @@
     header .backgroundHome{margin-top:30px;}
     .backgroundHome .backgroundMapImage{margin-top:45px;}
     .backgroundText p{font-size:30px;line-height:35px;padding:0 15px;}
-    .allMain.marginTop{margin-top:875px;}
-    main{margin-top:280px;}
+    .allMain.marginTop{margin-top:950px;}
+    main{margin-top:90px;}
     .mainHeaderNote, .mainIcon{padding:0 25px;}
     .allMain{padding:0}
     .imagesHome ul li .imageOne, .imagesHome ul li .imageTwo, .imagesHome ul li .imageThree, .imagesHome ul li .imageFour{
@@ -170,12 +170,13 @@
     form .submitBtn button{padding:15px 20px;}
     .clickPages ul li a{padding:10px;}
     .clickPages ul li{padding:10px 0;}
-    main{margin-top:200px;}
+    main{margin-top:80px;}
     .uploadImage .imageFile input[type="file"]{width:100%;}
     .allMain.marginTop{margin-top:700px;}
     .mainHeaderNote, .mainIcon{padding:0 25px;}
     .allMain{padding:0}
     .mainHeaderNote p{font-size:20px;line-height:30px;}
+    .allMain.marginTop{margin-top:750px;}
 }
 @media screen and (max-width:299px){
     .backgroundHome .backgroundMapImage{margin-top:70px;}
