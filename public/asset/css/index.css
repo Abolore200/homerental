@@ -64,7 +64,7 @@ main{margin:60px 0;margin-bottom:0px;}
 .iconListOne ul li .dollarNote p{font-weight:600;font-size:20px;font-family:'Inter',sans-serif;text-transform:capitalize;margin-top:20px;}
 .iconListOne ul li .dollarNote{margin-top:15px;}
 .iconListOne ul li .dollarIcon{width:77px;height:74px;}
-.iconListOne ul li{width:33.99%;}
+.iconListOne ul li{width:33.33%;}
 .iconListOne ul:nth-child(2){margin-top:50px;}
 .iconListOne ul:nth-child(1){margin-top:0px;}
 .allHeaderNote{display:flex;align-items:center;justify-content:space-between;}
@@ -182,7 +182,7 @@ margin-top:10px;border-radius:5px;background-color:#f9f9f9;font-family:'Inter';}
 .uploadImage label span{color:#000;font-size:15px;font-weight:600;padding-bottom:15px;}
 .uploadImage label{font-weight:600;padding:20px;}
 .uploadImage .imageFile{width:100%;border:2px dashed #F4511E;border-radius:10px;}
-.uploadImage .imageFile input[type="file"]{position:relative;font-family:'Inter';text-align:center!important;width:100%;}
+.uploadImage .imageFile input[type="file"]{position:relative;font-family:'Inter';text-align:center!important;}
 .uploadImage p{text-align:justify;font-family:inherit;font-size:initial;color:#000;margin-bottom:10px;}
 .uploadImage p span{color:#F4511E;font-size:20px;font-weight:600;}
 .drop-container{display:flex;flex-direction:column;justify-content:center;align-items:center;}

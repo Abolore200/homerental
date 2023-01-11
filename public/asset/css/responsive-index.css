@@ -47,7 +47,7 @@
     .iconListOne ul li .dollarNote p br{display:none;}
     /* .mainImageHome, .iconListOne ul:nth-child(1){float:left;} */
     .mainPropertyImage ul{flex-direction:column;margin:0;}
-    .mainPropertyImage ul li{width:75%;margin:15px auto;}
+    .mainPropertyImage ul li{width:80%;margin:15px auto;}
     .allPropertyList{width:100%;padding:0 25px;}
     .mainPropertyImage ul li:last-child{margin-right:auto;}
     .mainPropertyImage ul li:first-child{margin-left:auto;}
@@ -96,20 +96,56 @@
 
 @media screen and (min-width:400px) and (max-width:768px) {
     .mapImage img{width:100%;height:280px;}
-    /* .backgroundText p br:nth-child(1){display:none} */
-    .homePhoneNumber ul{align-items:center;justify-content:space-between;}
+    /* .mainPropertyImage ul li figure figcaption p:nth-child(2) */
+    .mainPropertyImage ul li figure figcaption .propertyIcon p{padding:12px 5px;}
+    /* .mainPropertyImage ul li figure figcaption .propertyIcon p:last-child{padding:8px;} */
+    .homePhoneNumber ul{align-items:center;justify-content:space-evenly;}
     .homePhoneNumber{width:100%;}
     .homePhoneNumber ul li:first-child{margin-right:0;}
-    header .backgroundHome{margin-top:100px;}
-    .backgroundHome .backgroundMapImage{margin-top:85px;}
-    .backgroundText p{font-size:35px;line-height:55px;padding:0 15px;}
-    .allMain.marginTop{margin-top:1000px;}
+    header .backgroundHome{margin-top:30px;}
+    .backgroundHome .backgroundMapImage{margin-top:45px;}
+    .backgroundText p{font-size:30px;line-height:35px;padding:0 15px;}
+    .allMain.marginTop{margin-top:875px;}
+    main{margin-top:280px;}
+    .mainHeaderNote, .mainIcon{padding:0 25px;}
+    .allMain{padding:0}
+    .imagesHome ul li .imageOne, .imagesHome ul li .imageTwo, .imagesHome ul li .imageThree, .imagesHome ul li .imageFour{
+    padding:30px 0 0;text-align:center;}
 }
 @media screen and (min-width:767px) and (max-width:1000px) {
     .mapImage img{width:100%;}
     .mapForm{display:block;}
     .mapForm select, .mapForm button{width:100%;margin:8px 0;}
     .mapForm select:nth-child(2){width:100%;}
+    .allMain{width:95%;}
+    .mainImageHome img{width:100%;}
+    .mainImage{margin-top:50px;}
+    .mainImageHome{margin-left:0;}
+    .iconListOne ul li .dollarNote p{font-size:15px;}
+    .dollarIcon p .fa-dollar-sign, .dollarIcon p .fa-building, .dollarIcon p .fa-database, .dollarIcon p .fa-leaf, .dollarIcon p .fa-moon, .dollarIcon p .fa-shield{
+    font-size:20px;}
+    .iconListOne ul li .dollarIcon{width:60px;height:57px;}
+    .allPropertyList{width:95%;}
+    .mainPropertyImage ul li figure figcaption p:nth-child(1){padding:10px 15px;}
+    .mainPropertyImage ul li figure figcaption p:nth-child(2){padding:0 15px 10px;}
+    .mainPropertyImage ul li figure figcaption .propertyIcon p{padding:10px 0;}
+    .imageAndNote{width:95%;}
+    .imagesHome ul li .imageOne{height:240px;}
+    .imagesHome ul li .imageTwo{height:190px;}
+    .imagesHome ul li .imageThree{height:200px;}
+    .imagesHome ul li .imageFour{height:246px;}
+    .imagesHome ul li:nth-child(2){margin-top:50px;}
+    .imagesHome ul li .imageOne, .imagesHome ul li .imageTwo, .imagesHome ul li .imageThree, .imagesHome ul li .imageFour{
+    padding:30px 0px 0;}
+    .propertyForm{width:90%;}
+    .homeFooter{width:95%;}
+    .homePhoneNumber ul li:first-child{margin-right:0;}
+    .homePhoneNumber ul{justify-content:space-evenly;}
+    .homeAddress p i, .homePhoneNumber ul li i{margin-right:4px;}
+    .linkSocialMedia p{margin-right:0;}
+    .footerBottom{width:90%;padding-top:25px;}
+    .homeBottom ul li, .homeCopy p{font-size:10px;}
+    .videoHome .videoTag{height:100vh;}
 }
 @media screen and (max-width:399px){
     .homeBottom ul{flex-direction:column;}
@@ -133,6 +169,7 @@
     .imagesHome ul li:nth-child(2){margin-top:50px;}
     .imagesHome ul li .imageThree{height:160px;}
     .imagesHome ul li .imageFour{height:206px;}
+    .mainPropertyImage ul li figure figcaption .propertyIcon p{padding:12px 5px;}
     .imagesHome ul li .imageOne, .imagesHome ul li .imageTwo, .imagesHome ul li .imageThree, .imagesHome ul li .imageFour{
     padding:20px 10px 0;}
     .homePhoneNumber ul li:first-child{margin-right:0;}
@@ -143,15 +180,36 @@
     form .submitBtn button{padding:15px 20px;}
     .clickPages ul li a{padding:10px;}
     .clickPages ul li{padding:10px 0;}
+    main{margin-top:200px;}
+    .uploadImage .imageFile input[type="file"]{width:100%;}
+    .allMain.marginTop{margin-top:700px;}
+    .mainHeaderNote, .mainIcon{padding:0 25px;}
+    .allMain{padding:0}
+    .mainHeaderNote p{font-size:20px;line-height:30px;}
 }
-@media screen and (max-width:280px){
+@media screen and (max-width:299px){
     .backgroundHome .backgroundMapImage{margin-top:70px;}
     .backgroundHome .backgroundText{margin-top:40px;}
-    main{margin-top:120px;}
+    main{margin-top:200px;}
     .allMain.marginTop{margin-top:750px;}
     .homeAddress p{font-size:13px;}
     .homeAddress p i, .homePhoneNumber ul li i{margin-right:4px;font-size:10px;}
     .homePhoneNumber ul li{font-size:12px;}
     .linkSocialMedia ul li a i{font-size:13px;}
     .linkSocialMedia p{font-size:13px;}
+    .mainHeaderNote p{font-size:18px;}
+    .allPropertyList{padding:0 10px;}
+    .allHeaderNote p{font-size:14px;}
+    .allHeaderNote a{font-size:11px;padding:6px 9px;}
+    .allMain{padding:0 10px;}
+    .allHeaderNote p{font-size:15px;}
+    /* .mainPropertyImage ul li figure figcaption p:nth-child(2){padding:0 15px 8px;} */
+    .mainPropertyImage ul li figure figcaption p:nth-child(1){padding:5px 15px;}
+    .mainPropertyImage ul li figure figcaption .propertyIcon p:last-child{padding:8px 8px;}
+    .mainPropertyImage ul li figure figcaption .propertyIcon p:nth-child(2){padding-top:8px;padding-bottom:8px;}
+}
+@media screen and (min-width:401px) and (max-width:567px){
+    .homeBottom ul li{font-size:10px;}
+    .footerBottom{padding:0 10px;}
+    .homeCopy p{font-size:14px;}
 }
