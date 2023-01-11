@@ -131,7 +131,7 @@
     .propertyForm{width:90%;}
     .homeFooter{width:95%;}
     .homePhoneNumber ul li:first-child{margin-right:0;}
-    .homePhoneNumber ul{justify-content:space-evenly;}
+    .homePhoneNumber ul{justify-content:space-between;}
     .homeAddress p i, .homePhoneNumber ul li i{margin-right:4px;}
     .linkSocialMedia p{margin-right:0;}
     .footerBottom{width:90%;padding-top:25px;}
