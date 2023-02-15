@@ -10,11 +10,11 @@
     .navbarHome .navbarListHome{width:100%;margin-top:-99px;padding-top:90px;}
     .navbarListHome ul{display:block;background-color:rgba(95, 93, 93);width:50%;height:100vh;padding-top:90px;
     padding-left:20px;float:right;position:fixed;right:0;top:0;margin-top:0px;z-index:998;}
-    .navbarListHome ul{right:999px;}
+    .navbarListHome ul{right:999px;transition:right .5s ease-in;}
     .navbarListHome{height:100vh;}
     .navbarListHome ul li::after{margin-top:3px;}
     .navbarListHome ul li{padding:10px 0;width:fit-content;}
-    .navbarListHome ul.show{right:0px;transition:right .3s;}
+    .navbarListHome ul.show{right:0px;transition:right .5s ease-out;}
     .homeLink.fixed{position:fixed;top:0;}
     header .backgroundHome{display:block;}
     .backgroundHome .backgroundText{width:100%;}
